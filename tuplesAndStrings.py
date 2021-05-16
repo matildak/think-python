@@ -94,3 +94,19 @@ print(f'MathCon: pi={math.pi:.3f}')
 
 
 help(str)
+
+#Range
+#Skapa lista
+listan=list(range(5,10))
+listan2=list(range(5,10,2))
+print("listan: ",listan) #listan:  [5, 6, 7, 8, 9]
+print("listan2: ",listan2) #listan2:  [5, 7, 9]
+
+for p in enumerate(listan):
+    print(p)
+
+#Snyggare med packa upp med f-string
+for i, v in enumerate(listan):
+    print(f'i = {i}, v = {v}')
+
+    
